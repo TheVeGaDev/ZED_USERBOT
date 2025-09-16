@@ -1,7 +1,7 @@
 # whois code for zed edit by ~ @ZedThon
 
 import os
-
+import Config 
 from telethon.tl.functions.photos import GetUserPhotosRequest
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
