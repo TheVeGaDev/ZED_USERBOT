@@ -1,7 +1,7 @@
-FROM Zed-Thon/ZED_USERBOT:latest
+FROM TheVeGaDev/ZED_USERBOT:latest
 
 # نسخ رابط السورس 
-RUN git clone https://github.com/Zed-Thon/ZED_USERBOT.git /root/userbot
+RUN git clone https://github.com/TheVeGaDev/ZED_USERBOT.git /root/userbot
 # اخـراج العـمل 
 WORKDIR /root/userbot
 
